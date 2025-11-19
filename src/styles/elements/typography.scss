@@ -21,7 +21,11 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+    margin: 0;
+    font-weight: 300;
+    span {
+        font-weight: 600;
+    }
 }
 
 h3 {
