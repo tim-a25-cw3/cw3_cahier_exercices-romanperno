@@ -74,3 +74,23 @@
         margin: 24px 0 32px;
     }
 }
+
+.caroussel {
+    .card {
+        &:nth-child(even) {
+            .card__content {
+                order: unset;
+            }
+        }
+    }
+
+    .card__content {
+        h3 {
+            color: var(--color-black);
+        }
+
+        p {
+            color: var(--color-black);
+        }
+    }
+}
