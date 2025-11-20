@@ -1,0 +1,26 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+
+    background-color: var(--color-primary);
+    color: var(--color-black);
+
+    padding: 8px 16px;
+    width: fit-content;
+    border-radius: 100px;
+
+    transition: linear 0.2s;
+
+    font-family: var(--font-primary);
+    font-weight: bold;
+    font-size: var(--font-size-btn);
+
+    &:hover {
+        text-decoration: none;
+        background-color: var(--color-secondary);
+        color: var(--color-white);
+
+        gap: var(--spacing-md);
+    }
+}
