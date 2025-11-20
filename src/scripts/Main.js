@@ -8,6 +8,18 @@ class Main {
 
   init() {
     Icons.load();
+    this.initSwiper();
+  }
+
+  initSwiper() {
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 1,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
   }
 }
 new Main();
